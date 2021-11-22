@@ -259,7 +259,7 @@ const dummyData = [
 
 export const Home = () => {
   const [showNav, setShowNav] = useState(true);
-  const [result, setResult] = useState<any>([]);
+  const [result, setResult] = useState([]);
 
   useEffect(() => {
     setResult(dummyData);
