@@ -101,9 +101,6 @@ const Button = styled.button`
   }
 `;
 
-interface Prop {
-  path: string;
-}
 
 const dummyData = [
   {
@@ -120,7 +117,7 @@ const dummyData = [
   }
 ];
 
-export const Bollywood: React.FC<Prop> = () => {
+export const Bollywood = () => {
   const [showNav, setShowNav] = useState(true);
   const [result, setResult] = useState<any>([]);
 

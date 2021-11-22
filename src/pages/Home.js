@@ -241,10 +241,6 @@ const Button = styled.button`
   }
 `;
 
-// Props Type
-interface Props {
-  path: string;
-}
 
 const dummyData = [
   {
@@ -261,7 +257,7 @@ const dummyData = [
   }
 ];
 
-export const Home: React.FC<Props> = () => {
+export const Home = () => {
   const [showNav, setShowNav] = useState(true);
   const [result, setResult] = useState<any>([]);
 

@@ -8,11 +8,7 @@ const Container = styled.div`
   height: 100vh;
 `;
 
-interface Props {
-  path: string;
-}
-
-export const Post: React.FC<Props> = () => {
+export const Post = () => {
   const [showNav, setShowNav] = useState(true);
 
   return (

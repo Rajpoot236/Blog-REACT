@@ -64,11 +64,9 @@ const Grid = styled.div`
   }
 `;
 
-interface Props {
-  showAdvertisement?: boolean;
-}
 
-export const TopPost: React.FC<Props> = ({ showAdvertisement }) => {
+
+export const TopPost = ({ showAdvertisement }) => {
   return (
     <Container>
       {showAdvertisement ? <Advertisement>Advertisement</Advertisement> : null}

@@ -43,12 +43,9 @@ const B = styled.b`
   margin-left: 1em;
 `;
 
-interface Props {
-  setShowNav: any;
-  showNav: any;
-}
 
-export const HeadingContainer: React.FC<Props> = ({ showNav, setShowNav }) => {
+
+export const HeadingContainer = ({ showNav, setShowNav }) => {
   return (
     <Container>
       <Heading>

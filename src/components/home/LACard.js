@@ -65,14 +65,9 @@ const LACardImage = styled.div`
   }
 `;
 
-interface Props {
-  path?: string;
-  title: string;
-  content: string;
-  date: string;
-}
 
-export const LatestArticlesCard: React.FC<Props> = ({
+
+export const LatestArticlesCard = ({
   title,
   content,
   date
