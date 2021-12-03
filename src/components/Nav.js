@@ -47,10 +47,10 @@ export const Nav = () => {
     <Container>
       <Tab to="/">Home</Tab>
       <Tab to="/bollywood">Bollywood</Tab>
-      <Tab to="">Technology</Tab>
-      <Tab to="">Hollywood</Tab>
-      <Tab to="">Fitness</Tab>
-      <Tab to="">Food</Tab>
+      <Tab to="/technology">Technology</Tab>
+      <Tab to="/hollywood">Hollywood</Tab>
+      <Tab to="/fitness">Fitness</Tab>
+      <Tab to="/food">Food</Tab>
     </Container>
   );
 };

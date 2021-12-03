@@ -1,7 +1,7 @@
 import "./styles.css";
 import { Router } from "@reach/router";
 
-import { Bollywood, Home, Post } from "./pages";
+import { Bollywood, Hollywood, Home, Post, Technology, Food, Fitness } from "./pages";
 
 export default function App() {
   return (
@@ -9,6 +9,10 @@ export default function App() {
       <Home path="/" />
       <Bollywood path="/bollywood" />
       <Post path="/postDetail" />
+      <Technology path="/technology" />
+      <Hollywood path="/hollywood" />
+      <Food path="/food" />
+      <Fitness path="/fitness" />
     </Router>
   );
 }
